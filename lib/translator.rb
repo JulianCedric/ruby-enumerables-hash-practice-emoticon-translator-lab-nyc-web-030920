@@ -24,7 +24,7 @@ end
 
 emoticons 
 
-binding.pry 
+# binding.pry 
 
 end 
 
