@@ -42,7 +42,7 @@ def get_japanese_emoticon(file_path, variable)
     sorry_message
   end 
   
-binding.pry 
+# binding.pry 
   
 end
 
