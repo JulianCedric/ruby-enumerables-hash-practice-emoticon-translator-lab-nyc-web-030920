@@ -54,7 +54,7 @@ def get_english_meaning(file_path, variable)
     "happy" 
   elsif ((file_path = "./lib/emoticons.yml") && ("#{variable}" == "(￣ー￣)"))
     "grinning"
-  elsif ((file_path = "./lib/emoticons.yml") && ("#{variable}" == ":'("))
+  elsif ((file_path = "./lib/emoticons.yml") && ("#{variable}" == "(Ｔ▽Ｔ)"))
     "sad"
   else 
     sorry_message
