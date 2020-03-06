@@ -17,14 +17,14 @@ while i < emoticons_copy.values.length do
   i += 1 
 end 
 
-# ii = 0 
-# while ii < emoticons_copy2.values.length do emoticons["get_emoticon"][emoticons_copy2].values[ii][0] = emoticons_copy2.values[ii][1]
-#   ii += 1 
-# end 
+ii = 0 
+while ii < emoticons_copy2.values.length do emoticons["get_emoticon"][emoticons_copy2].values[ii][0] = emoticons_copy2.values[ii][1]
+  ii += 1 
+end 
 
 emoticons 
 
-binding.pry 
+# binding.pry 
 
 end 
 
