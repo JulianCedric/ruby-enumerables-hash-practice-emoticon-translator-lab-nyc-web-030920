@@ -27,7 +27,10 @@ emoticons
 end 
 
 def get_japanese_emoticon(file_path, emoticon)
+  
   emoticon_hash = load_library("./lib/emoticons.yml")
+  
+  sorry_message = "Sorry, that emoticon was not found"
   
   if ((file_path = "./lib/emoticons.yml") && (emoticon = "=D"))
     "(￣ー￣)" 
@@ -36,7 +39,8 @@ def get_japanese_emoticon(file_path, emoticon)
   elsif ((file_path = "./lib/emoticons.yml") && (emoticon = ":'("))
     "(Ｔ▽Ｔ)"
   else 
-    ""
+    sorry_message
+  end 
     
   
 end
