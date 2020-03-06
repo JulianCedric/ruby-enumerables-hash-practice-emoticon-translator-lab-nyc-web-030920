@@ -42,6 +42,8 @@ def get_japanese_emoticon(file_path, emoticon)
     sorry_message
   end 
   
+binding.pry 
+  
 end
 
 
