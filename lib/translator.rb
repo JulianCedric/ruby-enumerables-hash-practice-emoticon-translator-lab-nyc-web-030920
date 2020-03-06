@@ -24,52 +24,11 @@ end
 
 emoticons 
 
-# binding.pry 
-
 end 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# emoticons[:get_meaning] = {}
-# emoticons[:get_emoticons] = {} 
-
-# get_meaning = {}
-# get_meaning[emoticons.keys] = emoticons.values
-# get_meaning 
-
-# emoticons[get_meaning]
-
- 
-
-
-# load_library("./lib/emoticons.yml")[:get_meaning] = {}
-# load_library("./lib/emoticons.yml")[:get_emoticon] = {} 
-# p load_library("./lib/emoticons.yml").keys
-
-
-
-
-# def get_japanese_emoticon
-#   # code goes here
-# end
+def get_japanese_emoticon
+  # code goes here
+end
 
 # def get_english_meaning
 #   # code goes here
