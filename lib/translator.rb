@@ -31,7 +31,11 @@ def get_japanese_emoticon(file_path, emoticon)
   
   if ((file_path = "./lib/emoticons.yml") && (emoticon = "=D"))
     "(￣ー￣)" 
-  elsif 
+  elsif ((file_path = "./lib/emoticons.yml") && (emoticon = ":)"))
+    "(＾ｖ＾)"
+  elsif ((file_path = "./lib/emoticons.yml") && (emoticon = ":)"))
+  
+  
   
 end
 
