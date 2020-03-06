@@ -51,7 +51,7 @@ def get_english_meaning(file_path, variable)
   sorry_message = "Sorry, that emoticon was not found"
   
   if ((file_path = "./lib/emoticons.yml") && ("#{variable}" == "=D"))
-    "(￣ー￣)" 
+    "happy" 
   elsif ((file_path = "./lib/emoticons.yml") && ("#{variable}" == ":)"))
     "(＾ｖ＾)"
   elsif ((file_path = "./lib/emoticons.yml") && ("#{variable}" == ":'("))
