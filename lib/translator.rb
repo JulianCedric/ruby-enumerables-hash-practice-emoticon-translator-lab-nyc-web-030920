@@ -29,7 +29,7 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   emoticon_hash = load_library("./lib/emoticons.yml")
   
-  if file_path = "./lib/emoticons.yml"
+  if ((file_path = "./lib/emoticons.yml") && (emoticon = "=D"))
   
 end
 
