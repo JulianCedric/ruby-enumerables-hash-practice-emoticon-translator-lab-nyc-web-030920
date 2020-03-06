@@ -47,6 +47,18 @@ end
 def get_english_meaning(file_path, variable)
   
   emoticon_hash = load_library("./lib/emoticons.yml")
+  
+  sorry_message = "Sorry, that emoticon was not found"
+  
+  if ((file_path = "./lib/emoticons.yml") && ("#{variable}" == "=D"))
+    "(￣ー￣)" 
+  elsif ((file_path = "./lib/emoticons.yml") && ("#{variable}" == ":)"))
+    "(＾ｖ＾)"
+  elsif ((file_path = "./lib/emoticons.yml") && ("#{variable}" == ":'("))
+    "(Ｔ▽Ｔ)"
+  else 
+    sorry_message
+  end
 
 
 
