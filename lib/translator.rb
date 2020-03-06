@@ -59,7 +59,5 @@ def get_english_meaning(file_path, variable)
   else 
     sorry_message
   end
-
-
-
+  
 end
